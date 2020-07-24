@@ -1,7 +1,7 @@
 <template>
     <div class="col-auto mb-4">
-        <div class="card" style="width:18rem; height:24rem">
-            <div class="trapezoid trapezoid-outer"></div>
+        <div class="card" style="width:18rem; height:24rem" @click="openItem">
+            <!-- <div class="trapezoid trapezoid-outer"></div> -->
             <div class="trapezoid">
                 <span style="font-size: 1.20rem; font-weight:bold; color:black;">{{cardData.displayName | capitalize }}</span>
             </div>
@@ -26,12 +26,20 @@
                 if (!value) return ''
                 return value.toString().toUpperCase()
             }
-        }
+        },
+        methods: {
+            openItem() {
+
+                const userId = '123'
+                this.$router.push({ name: 'Item', params: { userId } })
+                //this.$router.push({ name: 'Item', params: { id: 'this.cardData.docId' } })
+            }
+        },
     }
 </script>
 
 
-<style>
+<style scoped>
     .card {
         border: 2px solid goldenrod;
         border-radius: 5px;
