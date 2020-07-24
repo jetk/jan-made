@@ -1,6 +1,5 @@
 <template>
-  <div>
-      
+  <div>    
   <div class="container"><VueShowdown :markdown="fileContent"></VueShowdown></div>
   </div>
 </template>
@@ -13,9 +12,14 @@ export default {
   data: function() {
     return {
       fileContent: null,
-      fileToRender: "./items/kazoot.md",
+      fileToRender: "./kazoot.md",
       rawContent: null
     };
+  },
+  computed: {
+    fileID() {
+      return "./"+this.$route.params.docId+".md"
+    }
   },
   created: function() {
     //  const fileToRender = `./assets/documentation/general/welcome.md`;
@@ -26,7 +30,7 @@ export default {
   methods: {
     getContent() {
       this.fileContent = "rendering ";
-      this.$http.get(this.fileToRender).then(
+      this.$http.get(this.fileID).then(
         response => {
           this.fileContent = response.body;
         },

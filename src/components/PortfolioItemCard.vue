@@ -29,9 +29,8 @@
         },
         methods: {
             openItem() {
-
-                const userId = '123'
-                this.$router.push({ name: 'Item', params: { userId } })
+                const docId = this.cardData.docId
+                this.$router.push({ name: 'Item', params: { docId } })
                 //this.$router.push({ name: 'Item', params: { id: 'this.cardData.docId' } })
             }
         },
