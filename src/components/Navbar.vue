@@ -1,6 +1,6 @@
 <template>
     
-    <nav class="navbar navbar-expand-sm navbar-light" data-toggle="affix">
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark text-light" data-toggle="affix">
     <div class="container flex-sm-nowrap align-items-baseline justify-content-center ">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars4" aria-expanded="false" aria-label="Toggle navigation">
            <div class="triple-deco-container container">
@@ -11,15 +11,15 @@
             </div>
         </button>
            
-        <div class="collapse navbar-collapse text-center" id="navbars4">
+        <div class="collapse navbar-collapse text-center " id="navbars4">
             <ul class="navbar-nav nav-fill w-100">
-                <li class="nav-item">
-                    <router-link class="nav-link" to="/">Home</router-link>
+                <li class="nav-item d-flex justify-content-center">
+                    <router-link class="nav-link text-light" to="/">Home</router-link>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                    <router-link class="nav-link text-light" to="/about">About</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="nav-link" to="/about">About</router-link>
-                </li>
-                <li>
                     <div class="triple-deco-container container">
                         <div class="triple-deco-content ">JAN-MADE</div>
                         <div class="triple-deco-tall"></div>
@@ -28,11 +28,11 @@
                     </div>
                     <!-- <a class="navbar-brand d-none d-sm-block" href="#">JAN-MADE</a> -->
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://jetk.github.io">Blog</a>
+                <li class="nav-item d-flex justify-content-center">
+                    <a class="nav-link text-light" href="https://jetk.github.io">Blog</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item d-flex justify-content-center align-items-baseline">
+                    <a class="nav-link text-light" href="#">Link</a>
                 </li>
             </ul>
         </div>
@@ -60,7 +60,11 @@
 
 .navbar-toggler {
     border: none;
-    width: 100%
+    width: 100%;
+}
+
+.nav-link{
+    width: 10vw;
 }
 
     /******** TRIPLE *********/
@@ -90,23 +94,24 @@
   grid-column: tall-start / tall-end;
   grid-row: wide-start / wide-end;
   padding: 5px 10px;
+  color: white
 /*   background-color: lightblue; */
 /*   color: #000; */
 }
 
 .triple-deco-container .triple-deco-tall {
   grid-area: tall;
-  border: 1px solid gold;
+  border: 1.5px solid gold;
 }
 
 .triple-deco-container .triple-deco-mid {
   grid-area: mid;
-  border: 1px solid goldenrod;
+  border: 2px solid goldenrod;
 }
 
 .triple-deco-container .triple-deco-wide {
   grid-area: wide;
-  border: 1px solid gold;
+  border: 1.5px solid gold;
 
 }
 

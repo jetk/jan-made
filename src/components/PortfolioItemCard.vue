@@ -1,34 +1,46 @@
 <template>
-    <div class="card" style="position: relative;">
-        <div class="trapezoid trapezoid-outer"></div>
-        <div class="trapezoid"> <h2>PROJECT {{info}}</h2> </div>
-    <!-- <div class="card-header">
-    <h5 style="margin-bottom: 0">ISSRAN</h5>
-  </div> -->
-  <img class="card-img-top" style="height: 300px" src="https://images.unsplash.com/photo-1594643566940-893b456ae452?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+    <div class="col-auto mb-4">
+        <div class="card" style="width:18rem; height:24rem">
+            <div class="trapezoid trapezoid-outer"></div>
+            <div class="trapezoid">
+                <span style="font-size: 1.20rem; font-weight:bold">{{cardData.displayName | capitalize }}</span>
+            </div>
+            <img class="card-img-top" style="height: 18rem"
+                :src="require(`@/assets/${cardData.img}.png`)"
+                alt="Card image cap">
+            <!-- <img class="card-img-top" style="height: 18rem"
+                src="https://images-na.ssl-images-amazon.com/images/I/51DvCss8J3L._AC_SY679_.jpg"
+                alt="Card image cap"> -->
+            <div class="card-body">
+                <p class="card-text">{{cardData.blurb}}</p>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
-export default {
-    props: ['info'],
-}
+    export default {
+        props: ['info', 'cardData'],
+        filters: {
+            capitalize: function (value) {
+                if (!value) return ''
+                return value.toString().toUpperCase()
+            }
+        }
+    }
 </script>
 
 
 <style>
     .card {
-        border: 3px solid goldenrod;
+        border: 2px solid goldenrod;
         border-radius: 5px;
     }
 
     .trapezoid {
-        width: 200px;
-        height: 50px;
-        background: white;
+        width: 250px;
+        height: 40px;
+        background: whitesmoke;
         border: 2px solid goldenrod;
         color: black;
         transform: perspective(10px) rotateX(-2deg);
@@ -41,7 +53,7 @@ export default {
     }
 
     .trapezoid-outer {
-        width: 210px;
-        height: 55px;
+        width: 260px;
+        height: 45px;
     }
 </style>
