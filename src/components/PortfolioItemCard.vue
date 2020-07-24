@@ -3,7 +3,8 @@
         <div class="card" style="width:18rem; height:24rem">
             <div class="trapezoid trapezoid-outer"></div>
             <div class="trapezoid">
-                <span style="font-size: 1.20rem; font-weight:bold">{{cardData.displayName | capitalize }}</span>
+                <h5>{{cardData.displayName | capitalize }}</h5>
+                <!-- <span style="font-size: 1.20rem; font-weight:bold">{{cardData.displayName | capitalize }}</span> -->
             </div>
             <img class="card-img-top" style="height: 18rem"
                 :src="require(`@/assets/${cardData.img}.png`)"

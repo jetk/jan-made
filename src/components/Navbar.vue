@@ -14,10 +14,10 @@
         <div class="collapse navbar-collapse text-center " id="navbars4">
             <ul class="navbar-nav nav-fill w-100">
                 <li class="nav-item d-flex justify-content-center">
-                    <router-link class="nav-link text-light" to="/">Home</router-link>
+                    <router-link class="nav-link text-light" to="/" data-toggle="collapse" data-target="#navbars4">Home</router-link>
                 </li>
                 <li class="nav-item d-flex justify-content-center">
-                    <router-link class="nav-link text-light" to="/about">About</router-link>
+                    <router-link class="nav-link text-light" to="/about" data-toggle="collapse" data-target="#navbars4">About</router-link>
                 </li>
                 <li class="nav-item">
                     <div class="triple-deco-container container">
@@ -29,10 +29,10 @@
                     <!-- <a class="navbar-brand d-none d-sm-block" href="#">JAN-MADE</a> -->
                 </li>
                 <li class="nav-item d-flex justify-content-center">
-                    <a class="nav-link text-light" href="https://jetk.github.io">Blog</a>
+                    <a class="nav-link text-light" href="https://jetk.github.io" data-toggle="collapse" data-target="#navbars4">Blog</a>
                 </li>
                 <li class="nav-item d-flex justify-content-center align-items-baseline">
-                    <a class="nav-link text-light" href="#">Link</a>
+                    <a class="nav-link text-light" href="#" data-toggle="collapse" data-target="#navbars4">Link</a>
                 </li>
             </ul>
         </div>
