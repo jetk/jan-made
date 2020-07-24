@@ -3,8 +3,7 @@
         <div class="card" style="width:18rem; height:24rem">
             <div class="trapezoid trapezoid-outer"></div>
             <div class="trapezoid">
-                <h5>{{cardData.displayName | capitalize }}</h5>
-                <!-- <span style="font-size: 1.20rem; font-weight:bold">{{cardData.displayName | capitalize }}</span> -->
+                <span style="font-size: 1.20rem; font-weight:bold; color:black;">{{cardData.displayName | capitalize }}</span>
             </div>
             <img class="card-img-top" style="height: 18rem"
                 :src="require(`@/assets/${cardData.img}.png`)"
@@ -41,9 +40,8 @@
     .trapezoid {
         width: 250px;
         height: 40px;
-        background: whitesmoke;
+        background:whitesmoke;
         border: 2px solid goldenrod;
-        color: black;
         transform: perspective(10px) rotateX(-2deg);
         position: absolute;
         margin-left: auto;
