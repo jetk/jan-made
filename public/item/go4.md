@@ -1,4 +1,4 @@
-# Go4Venture
+# Go4Venture Platform Protoype - with [Go4Venture](https://angel.co/company/go4venture)
 
 ## Why
 Go4Venture was a investment syndication platform that helped smaller startups raise capital from less-well-known investment providers. As we were trying to create a new product category from scratch, I knew we would have to rigorously test all features before building them.

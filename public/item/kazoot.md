@@ -1,4 +1,4 @@
-# Kazoot
+# Kazoot - with [Ticketer](https://www.ticketer.com/)
 
 ## Why
 Speaking to our customers (5,000 bus companies) and their passengers, I confirmed that bus companies and their passengers were desperate for mobile tickets. Aside from a few big players nobody could afford to build their own apps, and no passenger wants to download a new app every place they go to just to ride the bus. We needed to provide a free platform for any bus company to sell its tickets, that passengers could download once and travel anywhere with.

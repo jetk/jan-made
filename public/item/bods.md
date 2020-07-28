@@ -1,4 +1,4 @@
-# Bus Open Data API
+# Bus Open Data API - with [Ticketer](https://www.ticketer.com/)
 
 ## Why
 The Bus Services Act of 2017 mandated that by 2020, the UK bus industry needed to meet Open Data standards. Originally, the Department for Transport proposed a regulation that would have bankrupted many small bus operators by requiring them to build and administrate their own (unsecured) data hosts. By invitation of the DFT, a panel of industry experts along with myself were asked to consult monthly on regulations and implementation. We eventually convinced the DFT of a revised architecture that made it feasible for third party providers to securely host data for bus operators at a manageable cost.

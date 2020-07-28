@@ -1,4 +1,4 @@
-# Internationalization
+# Internationalization - with [Ticketer](https://www.ticketer.com/)
 
 ## Why
 Our larger international customers wanted to use Ticketer's transport technology in their overseas operations. The challenge was not only to internationalize the product portfolio, but to fundamentally change the data model to account for multiple currencies. 

@@ -7,7 +7,7 @@ export let portfolio = [
     {displayName: "Internationalization", blurb: "Going from 1 locality to 2 makes going to ∞ possible", docId: "international", img:"international"},
     {displayName: "Ticketer Realtime", blurb: "Tracking thousands of buses, their tickets and their punctuality", docId: "realtime", img:"realtime"},
     {displayName: "Go4venture", blurb: "A syndication and research platform for European Startups", docId: "go4", img:"go4"},
-    {displayName: "Issran", blurb: "Why not waste time by learning instead?", docId: "kazoot", img:"issran"},
+    {displayName: "Issran", blurb: "Why not waste time by learning instead?", docId: "issran", img:"issran"},
     {displayName: "Day Buffer", blurb: "Shouldn't you be able to quickly see what you've done with your life?", docId: "daybuffer", img:"daybuffer"},
     {displayName: "Passwordless SQLite", blurb: "Passwordless didn't have a sqlite token store so I built one ", docId: "passwordless", img:"passwordless"},
     {displayName: "Metalize", blurb: "Make your web browsing more metal, with Metalize!", docId: "metalize", img:"metallize"},

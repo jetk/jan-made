@@ -1,4 +1,4 @@
-# Day-Buffer
+# Day-Buffer - Shipped Solo
 
 ## Why
 I was struggling with feeling like I was achieving nothing with my days during the Covid-19 Pandemic so wanted to begin a journal. However, no format (paper, digital document or app) met my personal requirements so I decided to scratch my own itch.

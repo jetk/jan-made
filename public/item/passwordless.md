@@ -1,4 +1,4 @@
-# passwordless-sqlite
+# passwordless-sqlite - Shipped Solo
 
 ## Why
 I was building a side project where privacy was a high priority so we decided I should build our own authentication. I chose a magic-link authentication UX pattern because I liked the balance of security and ease, but could not find a Passwordless library for the database we were using, sqlite. Because we were bound to sqlite for other purposes, I decided to implement the library myself.

@@ -1,4 +1,4 @@
-# Metalize
+# Metalize - Shipped Solo
 
 ## Why
 Through absolutely no research, I concluded the internet really needed another stupid plugin that replaced browser text with something silly, a la cloud-to-butt. I also needed an excuse to practice writing Chrome plugins for a (slightly) more serious project.

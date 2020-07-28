@@ -1,4 +1,4 @@
-# Microsoft Soundscape
+# Microsoft Soundscape - With [Microsoft](https://www.microsoft.com/en-us) and [UCL](https://www.ucl.ac.uk/)
 
 ## Why
 Microsoft soundscape exists to help visually impaired and sighted people navigate and discover urban environments without looking at a screen. Independent mobility is extremely difficult for the visually impaired who otherwise have to rely on step-counting and route memorization to get between a few very specific points, missing out on any discovery on the way.
