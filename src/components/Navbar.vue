@@ -28,7 +28,7 @@
                     <!-- <a class="navbar-brand d-none d-sm-block" href="#">JAN-MADE</a> -->
                 </li> 
                 <a class="nav-link text-light" href="http://jetk.github.io" tag="li">Blog</a>
-                <router-link class="nav-link text-light" to="/contact" tag="li" data-toggle="collapse" data-target="#navbars4"><a>Contact</a></router-link>
+                <router-link class="nav-link text-light" to="/contact" tag="li" data-toggle="collapse" data-target="#navbars4"><a style="white-space: nowrap;">Contact & CV</a></router-link>
                 
             </ul>
         </div>
