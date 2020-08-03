@@ -1,7 +1,7 @@
 <template>
   <div style="padding: 1rem" class="bg-dark" >
     <div class="row justify-content-center">
-      <app-portfolio-item-card v-for="card in cards" :key="card.displayName" :info="card.displayName" :cardData ="card"></app-portfolio-item-card>
+      <app-portfolio-item v-for="card in cards" :key="card.displayName" :info="card.displayName" :cardData ="card"></app-portfolio-item>
     </div>
   </div>
 </template>
@@ -10,12 +10,12 @@
 import {portfolio} from '@/itemIndex.js'
 
 // @ is an alias to /src
-import appPortfolioItemCard from '@/components/PortfolioItemCard.vue'
+import appPortfolioItem from '@/components/PortfolioItem.vue'
 
 export default {
   name: 'Home',
   components: {
-    appPortfolioItemCard
+    appPortfolioItem
   },
   data() {
     return {

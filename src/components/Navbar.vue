@@ -52,7 +52,13 @@
 </script>
 
 
-<style .scoped>
+<style scoped>
+
+a:hover a text-light:hover{
+    
+    text-shadow: 0px 0px 3px hotpink;
+    text-decoration: none;
+}
 
 li a {
     color: white;
